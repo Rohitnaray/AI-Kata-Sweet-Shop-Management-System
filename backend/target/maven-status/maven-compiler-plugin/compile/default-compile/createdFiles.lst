@@ -1,0 +1,10 @@
+com\sweetshop\model\Sweet.class
+com\sweetshop\repository\SweetRepository.class
+com\sweetshop\repository\UserRepository.class
+com\sweetshop\security\JwtUtil.class
+com\sweetshop\model\User.class
+com\sweetshop\controller\SweetController.class
+com\sweetshop\service\SweetService.class
+com\sweetshop\SweetShopApplication.class
+com\sweetshop\controller\AuthController.class
+com\sweetshop\service\UserService.class

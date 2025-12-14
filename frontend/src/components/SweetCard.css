@@ -1,0 +1,123 @@
+.sweet-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.sweet-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sweet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 15px;
+}
+
+.sweet-header h3 {
+  font-size: 1.4em;
+  color: var(--text-dark);
+  margin: 0;
+  flex: 1;
+}
+
+.sweet-category {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.sweet-details {
+  flex: 1;
+  margin-bottom: 15px;
+}
+
+.sweet-price {
+  font-size: 1.8em;
+  color: var(--accent-color);
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.sweet-quantity {
+  color: var(--text-light);
+  font-size: 0.95em;
+  margin: 5px 0;
+}
+
+.sweet-quantity span {
+  font-weight: 600;
+  color: var(--success-color);
+}
+
+.sweet-quantity .out-of-stock {
+  color: var(--danger-color);
+}
+
+.sweet-description {
+  color: var(--text-light);
+  font-size: 0.9em;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.sweet-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.purchase-section {
+  display: flex;
+  gap: 10px;
+}
+
+.quantity-input {
+  width: 70px;
+  padding: 8px;
+  border: 2px solid var(--border-color);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.btn-buy {
+  flex: 1;
+  padding: 10px;
+  background-color: var(--success-color);
+  color: white;
+  font-weight: 600;
+}
+
+.btn-buy:hover {
+  background-color: #229954;
+}
+
+.btn-disabled {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--text-light);
+  color: white;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-delete {
+  padding: 10px;
+  background-color: var(--danger-color);
+  color: white;
+  font-weight: 600;
+}
+
+.btn-delete:hover {
+  background-color: #c0392b;
+}

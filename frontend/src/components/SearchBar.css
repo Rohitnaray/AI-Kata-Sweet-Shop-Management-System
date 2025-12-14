@@ -1,0 +1,107 @@
+.search-bar {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.search-input {
+  flex: 2;
+  min-width: 200px;
+  padding: 12px;
+  border: 2px solid var(--border-color);
+  border-radius: 6px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.search-select {
+  flex: 1;
+  min-width: 150px;
+  padding: 12px;
+  border: 2px solid var(--border-color);
+  border-radius: 6px;
+  background-color: white;
+}
+
+.search-select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.price-input {
+  width: 120px;
+  padding: 12px;
+  border: 2px solid var(--border-color);
+  border-radius: 6px;
+}
+
+.price-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.btn-search {
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+}
+
+.btn-search:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn-reset {
+  padding: 12px 24px;
+  background-color: var(--text-light);
+  color: white;
+  font-weight: 600;
+}
+
+.btn-reset:hover {
+  background-color: #5a6c7d;
+}
+
+/* ============================================
+   Responsive Design
+   ============================================ */
+@media (max-width: 768px) {
+  .home-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .header-actions {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sweets-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .search-input,
+  .search-select,
+  .price-input,
+  .btn-search,
+  .btn-reset {
+    width: 100%;
+  }
+
+  .auth-card {
+    padding: 30px 20px;
+  }
+}

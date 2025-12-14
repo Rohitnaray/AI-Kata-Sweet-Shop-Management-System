@@ -1,0 +1,73 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.home-header h1 {
+  font-size: 2em;
+  color: var(--primary-color);
+}
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-add {
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: white;
+  font-weight: 600;
+}
+
+.btn-add:hover {
+  background-color: #ff8c00;
+}
+
+.btn-logout {
+  padding: 10px 20px;
+  background-color: var(--danger-color);
+  color: white;
+  font-weight: 600;
+}
+
+.btn-logout:hover {
+  background-color: #c0392b;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2em;
+  color: var(--text-light);
+}
+
+.sweets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.no-sweets {
+  text-align: center;
+  padding: 60px;
+  font-size: 1.2em;
+  color: var(--text-light);
+  background: white;
+  border-radius: 12px;
+  margin-top: 30px;
+}
